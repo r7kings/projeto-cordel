@@ -44,8 +44,8 @@ header a:hover, footer a:hover {
 section {
     font-family: var(--fonte3);
     background-color: white;
-    padding: 70px 30px;
     font-size: 3.5vw;
+    padding-left: 30px;
     line-height: 2em;
 }
 section.image {
@@ -60,6 +60,10 @@ section#img1 {
 section#img2 {
     background-image: url(../imagens/background002.jpg);
 }
+section p {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
 section.image > p{
     display: inline-block;
     padding: 5px;
@@ -70,7 +74,7 @@ footer {
     font-family: var(--fonte1);
     background-color: black;
     color: white;
-    font-size: 2vw;
+    font-size: 0.8em;
     text-align: center;
     padding: 2px;
 }
